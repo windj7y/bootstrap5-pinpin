@@ -1,0 +1,22 @@
+.logo {
+  width: 111px;
+  height: 40px;
+}
+
+.menu {
+  font-size: 32px;
+  color: $secondary;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.sticky-top {
+  top: 98px;
+}
+
+.overflow-h {
+  height: calc(100vh - 98px);
+}

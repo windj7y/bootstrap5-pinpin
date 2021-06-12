@@ -1,0 +1,20 @@
+.btn-primary {
+  color: $dark;
+}
+
+.hover- {
+  &primary:hover {
+    background: $info;
+    color: $white;
+  }
+
+  &outline-secondary:hover {
+    background: $primary;
+    color: $secondary;
+    border-color: $primary;
+
+    & i {
+      color: $info;
+    }
+  }
+}
